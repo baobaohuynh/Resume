@@ -1,0 +1,100 @@
+#wrapper {
+    width: 960px;
+    min-height: 600px;
+    display: flex;
+}
+/*============ LEFT SIDE ==============*/
+.left-side {
+    background-color: rgb(226, 223, 218);
+    padding: 20px;
+    margin: 20px 0px 20px;
+}
+
+/*========== PROFILE =============*/
+.profile-picture {
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: -20px; 
+}
+
+.name {
+    font-size: 22px;
+}
+
+.title-job {
+    margin: -20px;
+} 
+
+/*============= CONTACT ================*/
+.contact {
+    padding: -20px;
+    margin: 40px -40px 20px;
+}
+
+/*============ ABOUT ME ===============*/
+.about-me {
+    width: 400px;
+}
+
+.about {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*============== LANGUAGES AND SKILLS =============*/
+.skills-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.skills-name {
+    display: inline;
+    word-spacing: 50px;
+}
+
+/*============= INTERESTS ===================*/
+.interest {
+    align-items: center;
+    display: inline-block;
+}
+
+.interest-title {
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+}
+
+.interest-list {
+    display: inline;
+    word-spacing: 10px;
+}
+
+/*================ RIGHT SIDE =============*/
+.right-side {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 20px 0px 20px;
+}
+
+/*============= EDUCATION ==============*/
+.education-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*============ PROJECTS ===============*/
+.projects-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*============ ACTIVITIES ==============*/
+.activities-title {
+    font-weight: bold;
+    font-size: 20px;
+}
