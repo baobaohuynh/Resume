@@ -31,7 +31,7 @@
 } 
 
 /*============= CONTACT ================*/
-.contact {
+.contact-list {
     padding: -20px;
     margin: 40px -40px 20px;
 }
@@ -41,37 +41,27 @@
     width: 400px;
 }
 
-.about {
-    font-weight: bold;
-    font-size: 20px;
-}
-
 /*============== LANGUAGES AND SKILLS =============*/
-.skills-title {
-    font-weight: bold;
-    font-size: 20px;
-}
+.skill-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
 
-.skills-name {
-    display: inline;
-    word-spacing: 50px;
+.skill-name {
+    padding-right: 30px;
 }
 
 /*============= INTERESTS ===================*/
-.interest {
-    align-items: center;
-    display: inline-block;
+.interest-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px -20px 0px -50px;
 }
 
-.interest-title {
-    font-weight: bold;
-    font-size: 20px;
-    align-items: center;
-}
-
-.interest-list {
-    display: inline;
-    word-spacing: 10px;
+.interest-name {
+    padding-right: 10px;
 }
 
 /*================ RIGHT SIDE =============*/
@@ -82,19 +72,9 @@
 }
 
 /*============= EDUCATION ==============*/
-.education-title {
-    font-weight: bold;
-    font-size: 20px;
-}
+
 
 /*============ PROJECTS ===============*/
-.projects-title {
-    font-weight: bold;
-    font-size: 20px;
-}
+
 
 /*============ ACTIVITIES ==============*/
-.activities-title {
-    font-weight: bold;
-    font-size: 20px;
-}
